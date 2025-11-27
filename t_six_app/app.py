@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide",
 )
 
-LOGO_PATH = Path("assets/t_six_logo.png")
+LOGO_PATH = Path("assets/t_six_logo.jpg")
 BG_PATH = Path("assets/t_six_background.png")
 
 
@@ -540,3 +540,4 @@ if st.session_state.show_login or st.session_state.logged_in:
         if st.session_state.logged_in:
             application_form()
         st.markdown("</div>", unsafe_allow_html=True)
+
