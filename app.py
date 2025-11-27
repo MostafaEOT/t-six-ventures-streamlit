@@ -12,8 +12,8 @@ st.set_page_config(
     layout="wide",
 )
 
-LOGO_PATH = Path("assets/t_six_logo.png")
-BG_PATH = Path("assets/t_six_background.png")
+LOGO_PATH = Path("assets/t_six_logo.jpg")
+BG_PATH = Path("assets/t_six_background.PNG")
 
 
 # ---------------- HELPERS ----------------
